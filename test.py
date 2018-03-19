@@ -5,6 +5,7 @@ import pandas as pd
 import pydataset
 from database.vendas import db_vendas
 from planilha.volume import csv, excel
+import seaborn as sns
 
 import locale
 locale.setlocale(locale.LC_ALL, 'pt')
@@ -60,9 +61,10 @@ notas['Total'] = notas['NFCe'] + notas['NFe'] + notas['CTe'] + notas['NFSe'] + n
 total_por_ano = notas.groupby('Ano').aggregate({'Total': [sum]})
 #total_por_mes = notas.groupby('Mês').aggregate({'Total': [sum]}).sort(['Mês'], descending=[1])
 
-print(
-    notas.head()
-)
+# print(
+#     notas.head()
+# )
+
 
 #print(np.zeros((2,2)))
 
@@ -72,6 +74,15 @@ print(
 #print(np.eye(10))
 # array = np.genfromtxt('dataset.txt', filling_values=-1)
 # print(array)
+
+def plotTinatic():
+    #pydataset.data('titanic', show_doc=True)
+    titanic = pydataset.data('titanic')
+    #titanic['class'].value_counts().plot(kind='bar')
+    titanic.groupby('survived')['class'].value_counts().plot(kind='bar')
+    plt.show()
+
+plotTinatic()
 
 def teste_plot():
     data1 = np.array([100, 200, 140, 720, 333])
