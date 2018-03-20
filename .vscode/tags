@@ -1,0 +1,81 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DB	../database/vendas.py	/^from db import DB$/;"	kind:namespace	line:1
+Fisica	../class/pessoa.py	/^class Fisica(Pessoa):$/;"	kind:class	line:10
+Juridica	../class/pessoa.py	/^class Juridica(Pessoa):$/;"	kind:class	line:19
+Pessoa	../class/pessoa.py	/^class Pessoa:$/;"	kind:class	line:1
+__init__	../class/pessoa.py	/^    def __init__(self, nome, idade):$/;"	kind:member	line:3
+__init__	../class/pessoa.py	/^    def __init__(self, nome, idade, cnpj):$/;"	kind:member	line:21
+__init__	../class/pessoa.py	/^    def __init__(self, nome, idade, cpf):$/;"	kind:member	line:12
+calc1	../lib/mlerning.py	/^def calc1(n):$/;"	kind:function	line:4
+calc1	../test.py	/^from lib.mlerning import calc1, parse_file, parse_csv$/;"	kind:namespace	line:1
+casos_dengue.py	../casos_dengue.py	1;"	kind:file	line:1
+columns	../test.py	/^    columns=['name', 'total']$/;"	kind:variable	line:34
+copacabana	../mapa.py	/^copacabana = pd.read_csv('copacabana_lat_lng.csv')$/;"	kind:variable	line:15
+csv	../casos_dengue.py	/^from planilha.volume import csv, excel$/;"	kind:namespace	line:5
+csv	../mapa.py	/^from planilha.volume import csv, excel$/;"	kind:namespace	line:5
+csv	../planilha/volume.py	/^def csv(f):$/;"	kind:function	line:3
+csv	../test.py	/^from planilha.volume import csv, excel$/;"	kind:namespace	line:7
+data	../test.py	/^data = parse_file('iris.data')$/;"	kind:variable	line:15
+db_vendas	../database/vendas.py	/^def db_vendas():$/;"	kind:function	line:3
+db_vendas	../test.py	/^from database.vendas import db_vendas$/;"	kind:namespace	line:6
+df	../test.py	/^df = pd.DataFrame($/;"	kind:variable	line:28
+excel	../casos_dengue.py	/^from planilha.volume import csv, excel$/;"	kind:namespace	line:5
+excel	../mapa.py	/^from planilha.volume import csv, excel$/;"	kind:namespace	line:5
+excel	../planilha/volume.py	/^def excel(f):$/;"	kind:function	line:6
+excel	../test.py	/^from planilha.volume import csv, excel$/;"	kind:namespace	line:7
+getCnpj	../class/pessoa.py	/^    def getCnpj(self):$/;"	kind:member	line:25
+getCpf	../class/pessoa.py	/^    def getCpf(self):$/;"	kind:member	line:16
+getNome	../class/pessoa.py	/^    def getNome(self):$/;"	kind:member	line:7
+incidencias	../casos_dengue.py	/^incidencias = pd.read_csv('series_historicas.csv', delimiter='|')$/;"	kind:variable	line:13
+locale	../casos_dengue.py	/^import locale$/;"	kind:namespace	line:8
+locale	../mapa.py	/^import locale$/;"	kind:namespace	line:8
+locale	../test.py	/^import locale$/;"	kind:namespace	line:10
+mapa.py	../mapa.py	1;"	kind:file	line:1
+matplotlib	../casos_dengue.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:1
+matplotlib	../mapa.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:1
+matplotlib	../test.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+merge	../universidade.py	/^merge = pd.merge(vagas, municipios, on='municipio_ibge')$/;"	kind:variable	line:6
+mlerning.py	../lib/mlerning.py	1;"	kind:file	line:1
+mplleaflet	../mapa.py	/^import mplleaflet$/;"	kind:namespace	line:11
+municipios	../universidade.py	/^municipios = pd.read_csv('Municipios_Brasileiros.csv', delimiter=';')$/;"	kind:variable	line:4
+notas	../test.py	/^notas = excel('volume_notas.xlsx')$/;"	kind:variable	line:52
+np	../casos_dengue.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../lib/mlerning.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../mapa.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../test.py	/^import numpy as np$/;"	kind:namespace	line:3
+numbers	../lib/mlerning.py	/^import numbers$/;"	kind:namespace	line:2
+p	../class/pessoa.py	/^p = Fisica('fabio', 31, 132123)$/;"	kind:variable	line:28
+parse_csv	../lib/mlerning.py	/^def parse_csv(f):$/;"	kind:function	line:11
+parse_csv	../test.py	/^from lib.mlerning import calc1, parse_file, parse_csv$/;"	kind:namespace	line:1
+parse_file	../lib/mlerning.py	/^def parse_file(f):$/;"	kind:function	line:7
+parse_file	../test.py	/^from lib.mlerning import calc1, parse_file, parse_csv$/;"	kind:namespace	line:1
+pd	../casos_dengue.py	/^import pandas as pd$/;"	kind:namespace	line:3
+pd	../mapa.py	/^import pandas as pd$/;"	kind:namespace	line:3
+pd	../planilha/volume.py	/^import pandas as pd$/;"	kind:namespace	line:1
+pd	../test.py	/^import pandas as pd$/;"	kind:namespace	line:4
+pd	../universidade.py	/^import pandas as pd$/;"	kind:namespace	line:1
+pessoa.py	../class/pessoa.py	1;"	kind:file	line:1
+plotTinatic	../test.py	/^def plotTinatic():$/;"	kind:function	line:78
+plt	../casos_dengue.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:1
+plt	../mapa.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:1
+plt	../test.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+pydataset	../casos_dengue.py	/^import pydataset$/;"	kind:namespace	line:4
+pydataset	../mapa.py	/^import pydataset$/;"	kind:namespace	line:4
+pydataset	../test.py	/^import pydataset$/;"	kind:namespace	line:5
+setosa	../test.py	/^setosa = data[:50,0]$/;"	kind:variable	line:16
+sns	../casos_dengue.py	/^import seaborn as sns$/;"	kind:namespace	line:6
+sns	../mapa.py	/^import seaborn as sns$/;"	kind:namespace	line:6
+sns	../test.py	/^import seaborn as sns$/;"	kind:namespace	line:8
+test.py	../test.py	1;"	kind:file	line:1
+teste_plot	../test.py	/^def teste_plot():$/;"	kind:function	line:87
+total_por_ano	../test.py	/^total_por_ano = notas.groupby('Ano').aggregate({'Total': [sum]})$/;"	kind:variable	line:61
+universidade.py	../universidade.py	1;"	kind:file	line:1
+vagas	../universidade.py	/^vagas = pd.read_csv('vagas_universidades.csv', delimiter='|')$/;"	kind:variable	line:3
+vendas.py	../database/vendas.py	1;"	kind:file	line:1
+versicolor	../test.py	/^versicolor = data[50:100,0]$/;"	kind:variable	line:17
+volume.py	../planilha/volume.py	1;"	kind:file	line:1
